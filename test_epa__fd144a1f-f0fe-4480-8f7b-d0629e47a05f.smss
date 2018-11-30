@@ -1,0 +1,12 @@
+Base Properties
+ENGINE	fd144a1f-f0fe-4480-8f7b-d0629e47a05f
+ENGINE_ALIAS	test_epa
+ENGINE_TYPE	prerna.engine.impl.rdbms.RDBMSNativeEngine
+RDBMS_INSIGHTS	db/@ENGINE@/insights_database
+OWL	db/@ENGINE@/test_epa_OWL.OWL
+PIXEL_UPDATE	true
+RDBMS_TYPE	H2_DB
+DRIVER	org.h2.Driver
+USERNAME	sa
+PASSWORD	
+CONNECTION_URL	jdbc:h2:nio:@BaseFolder@/db/@ENGINE@/database;query_timeout=180000;early_filter=true;query_cache_size=24;cache_size=32768
